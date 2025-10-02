@@ -33,24 +33,23 @@
   grep -Rl "proxy_pass" /etc/nginx
   ```
 - ## Combined Cheat Use (your Scratchpad idea)
-- Keep snippets in `~/cheats.d/`, one file per topic (`ssh.txt`, `nginx.txt`, etc.).
-- Then use:
-  
-    ```bash
-    grep -Ri "proxy" ~/cheats.d
-    ```
-  
-    for brute force search, or:
-  
-    ```bash
-    fzf < ~/cheats.d/ssh.txt
-    ```
-  
-    to interactively pick commands from your SSH cheats.
+	- Keep snippets in `~/cheats.d/`, one file per topic (`ssh.txt`, `nginx.txt`, etc.).
+	- Then use:
+	  
+	    ```bash
+	    grep -Ri "proxy" ~/cheats.d
+	    ```
+	  
+	    for brute force search, or:
+	  
+	    ```bash
+	    fzf < ~/cheats.d/ssh.txt
+	    ```
+	  
+	    to interactively pick commands from your SSH cheats.
 - For global snippet picking:
   
     ```bash
     cat ~/cheats.d/* | fzf
     ```
-- <ins></ins> >[!info]  
-  >This is the "you can get productive in 10 minutes" version. If you survive and want the Jedi edition, you start piping `rg`(ripgrep) into `fzf` and adding previews that show full configs.
+- > This is the "you can get productive in 10 minutes" version. If you survive and want the Jedi edition, you start piping `rg`(ripgrep) into `fzf` and adding previews that show full configs.
