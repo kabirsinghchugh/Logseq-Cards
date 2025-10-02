@@ -10,30 +10,18 @@
 	  ```bash
 	  grep -i "server" /etc/nginx/nginx.conf
 	  ```
-- a
+	- 3. **`-R` - Recursive through folders**
+	  
+	  ```bash
+	  grep -Ri "PasswordAuthentication" /etc/ssh # → finds where that SSH option hides.
+	  ```
+	- 4. **`-n` - Show line numbers**
+	  
+	  ```bash
+	  grep -n "ExecStart" /etc/systemd/system/*.service
+	  ```
 - a
 - ---
-  
-  
-  ---
-  
-  3. **`-R` - Recursive through folders**
-  
-  
-  ```bash
-  grep -Ri "PasswordAuthentication" /etc/ssh # → finds where that SSH option hides.
-  ```
-  
-  ---
-  
-  4. **`-n` - Show line numbers**
-  
-  
-  ```bash
-  grep -n "ExecStart" /etc/systemd/system/*.service
-  ```
-  
-  ---
   
   
   5. **`-l` - Just filenames** (useful when you only care _where_)
