@@ -47,9 +47,9 @@
 	    ```
 	  
 	    to interactively pick commands from your SSH cheats.
-- For global snippet picking:
-  
-    ```bash
-    cat ~/cheats.d/* | fzf
-    ```
+	- For global snippet picking:
+	  
+	    ```bash
+	    cat ~/cheats.d/* | fzf
+	    ```
 - > This is the "you can get productive in 10 minutes" version. If you survive and want the Jedi edition, you start piping `rg`(ripgrep) into `fzf` and adding previews that show full configs.
