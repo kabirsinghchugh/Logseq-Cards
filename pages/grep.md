@@ -1,23 +1,19 @@
 - `grep` is the caveman club for text searching
 - `fzf` is the ADHD-friendly search box glued onto your terminal
 - Grep  = "find text in files"
+	- 1. **Basic usage**
+	  ```bash
+	  grep "nginx" /etc/nginx/nginx.conf # shows lines containing `nginx`
+	  ```
+	- 2. **`-i` - Case-insensitive**
+	  
+	  ```bash
+	  grep -i "server" /etc/nginx/nginx.conf
+	  ```
 - a
 - a
-- a
-- a
-- 1. **Basic usage**
+- ---
   
-  ```bash
-  grep "nginx" /etc/nginx/nginx.conf # shows lines containing `nginx`
-  ```
-  ---
-  
-  2. **`-i` - Case-insensitive**
-  
-  
-  ```bash
-  grep -i "server" /etc/nginx/nginx.conf
-  ```
   
   ---
   
