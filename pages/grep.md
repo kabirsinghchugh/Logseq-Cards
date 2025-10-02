@@ -1,7 +1,8 @@
 - `grep` is the caveman club for text searching
 - `fzf` is the ADHD-friendly search box glued onto your terminal
-- Grep  = "find text in files"
+- ## Grep  = "find text in files"
 	- 1. **Basic usage**
+	  
 	  ```bash
 	  grep "nginx" /etc/nginx/nginx.conf # shows lines containing `nginx`
 	  ```
@@ -20,15 +21,12 @@
 	  ```bash
 	  grep -n "ExecStart" /etc/systemd/system/*.service
 	  ```
-- a
+	- 5. **`-l` - Just filenames** (useful when you only care _where_)
+	  
+	  ```bash
+	  grep -Rl "proxy_pass" /etc/nginx
+	  ```
 - ---
-  
-  
-  5. **`-l` - Just filenames** (useful when you only care _where_)
-  
-  ```bash
-  grep -Rl "proxy_pass" /etc/nginx
-  ```
 - ## Combined Cheat Use (your Scratchpad idea)
 	- Keep snippets in `~/cheats.d/`, one file per topic (`ssh.txt`, `nginx.txt`, etc.).
 	- Then use:
