@@ -26,7 +26,6 @@
 	  ```bash
 	  grep -Rl "proxy_pass" /etc/nginx
 	  ```
-- ---
 - ## Combined Cheat Use (your Scratchpad idea)
 	- Keep snippets in `~/cheats.d/`, one file per topic (`ssh.txt`, `nginx.txt`, etc.).
 	- Then use:
