@@ -1,6 +1,6 @@
 - `grep` is the caveman club for text searching
 - `fzf` is the ADHD-friendly search box glued onto your terminal
-- ## Grep - "find Text in files."
+- Grep  aka ***find text in files***.
   
   1. **Basic usage**
   
@@ -25,12 +25,17 @@
   grep -Ri "PasswordAuthentication" /etc/ssh # → finds where that SSH option hides.
   ```
   
+  ---
+  
   4. **`-n` - Show line numbers**
   
   
   ```bash
   grep -n "ExecStart" /etc/systemd/system/*.service
   ```
+  
+  ---
+  
   
   5. **`-l` - Just filenames** (useful when you only care _where_)
   
