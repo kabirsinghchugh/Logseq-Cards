@@ -6,8 +6,6 @@
 	  ```bash
 	  grep "nginx" /etc/nginx/nginx.conf # shows lines containing `nginx`
 	  ```
-	  ---
-	  
 	  ### **`-i` - Case-insensitive**
 	  
 	  ```bash
