@@ -1,4 +1,4 @@
-- `grep` is the caveman club for text searching
+- `grep` is the caveman club for text searching.
 - `fzf` is the ADHD-friendly search box glued onto your terminal
 - ## Grep  = "find text in files"
 	- 1. **Basic usage**
